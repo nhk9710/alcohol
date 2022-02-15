@@ -9,13 +9,14 @@
 
 .main-wrap{ width: 100%; max-width: 1000px; margin: 0 auto; border: 1px solid red; }
 
-.first-content{ border: 1px solid black; position: relative; align-items: center;  }
-.first-content-box{  background-color: white; opacity: 0.8; width: 50%; position: absolute; top: -76px; padding: 20px; box-shadow: 2px 2px 20px grey  }
+.first-content{ position: relative; align-items: center; margin-top: 20px;  }
+.first-content-box{  background-color: white; opacity: 0.8; width: 50%; position: absolute; top: -76px; padding: 10px; box-shadow: 2px 2px 20px grey  }
+.first-content-box div{ margin-bottom: 10px; }
 .first-content-icons{ display: flex; justify-content: flex-end; }
 .first-content-icons div{ margin-left: 30px;  }
 .fcb1{ display: flex; justify-content: space-between; }
 
-.second-content{ display: flex; justify-content: space-between; margin-top: 30px; border: 1px solid blue; }
+.second-content{ display: flex; justify-content: space-between; margin-top: 30px; }
 .second-left{ display: flex; flex-direction: column; }
 .second-right{ display: flex; flex-direction: column; justify-content: space-between }
 
@@ -47,3 +48,20 @@
 
 .area{ display: flex; justify-content: space-around; margin-top: 25px; position: relative }
 .area:after{ content: ''; position: absolute; background-color: grey; width: 100%; height: 2px; top: 28px; }
+
+.third-content{ width: 100%; display: flex; justify-content: space-between; margin-top: 20px; }
+.third-first{ display: flex; flex-direction: column;width: 40%; }
+.third-first p{ margin-bottom: 10px }
+.third-first button{ margin-top: 10px; }
+
+.grandma{ position: relative }
+.grandma:after{ position: absolute; content: ''; background-image: url("../img/middle-img.jpg"); box-shadow: 2px 2px 20px grey; width: 350px; height: 220px; left: 267px; top: -80px; }
+
+.third-second{ display: flex; justify-content: flex-end; }
+.third-second > div{ width: 100%; }
+.ts-bottom{ display: flex; justify-content: space-between; width: 100%; }
+.ts-bottom div{ width: 39%; align-items: center; text-align: center; }
+
+.middle-little{ display: flex; justify-content: space-between; background: #e7e7e7 }
+.ml-first{ display: flex; justify-content: space-between; }
+.ml-first p{ margin-right: 10px; font-weight: bolder }
