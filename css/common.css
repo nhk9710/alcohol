@@ -1,0 +1,15 @@
+
+/* bold font */
+.bold-font1{ font-size: 1.5em; font-weight: bolder; }
+.bold-font2{ font-size: 1.4em; font-weight: bolder; }
+.bold-font3{ font-size: 1.3em; font-weight: bolder; }
+.bold-font4{ font-size: 1.2em; font-weight: bolder; }
+.bold-font5{ font-size: 1.1em; font-weight: bolder; }
+
+/* normal big font */
+.big-font1{ font-size: 1.2em; }
+
+
+/* title-font */
+.title-font{ font-size: 1.2em; font-weight: bolder; position: relative; margin-left: 10px; }
+.title-font:before{ position: absolute; content: ''; width: 3px; height: 22px; background-color: deepskyblue; left: -10px; }
