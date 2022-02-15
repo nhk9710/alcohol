@@ -13,3 +13,6 @@
 /* title-font */
 .title-font{ font-size: 1.2em; font-weight: bolder; position: relative; margin-left: 10px; }
 .title-font:before{ position: absolute; content: ''; width: 5px; height: 19px; background-color: deepskyblue; left: -10px; }
+
+/* color font */
+.grey{ color: grey }

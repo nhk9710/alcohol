@@ -17,14 +17,33 @@
 
 .second-content{ display: flex; justify-content: space-between; margin-top: 30px; border: 1px solid blue; }
 .second-left{ display: flex; flex-direction: column; }
+.second-right{ display: flex; flex-direction: column; justify-content: space-between }
 
-.left-item1{ margin-bottom: 20px; }
+.right-item1{ width: 100%; display: flex; justify-content: space-between; height: 40%; }
+.right-item1 img{ width: 49%; height: 100%; }
+.right-item2{ width: 100%; display: flex; justify-content: space-between; height: 58%; }
+.right-item2 img{ width: 49%; height: 70%; }
+
+
+.left-item1{ margin-bottom: 20px; height: 40% }
 .left-item1 span{ color: skyblue; }
-.left-item1 p{ margin-bottom: 15px; position: relative; }
-.left-item1 p:after{ position: absolute; content: ''; width: 100%; height: 1px; left: 1px; top: 24px; background-color: #dbdbdb; }
+.left-item1 p{ margin-bottom: 20px; position: relative; font-weight: bolder; }
+.left-item1 p:after{ position: absolute; content: ''; width: 100%; height: 1px; left: 1px; top: 25px; background-color: #dbdbdb; }
+.left-item1:first-child{ margin-bottom: 30px; }
+
+.left-item2{ height: 49%; margin-top: 10px; }
 
 
-.item2-first{ display: flex; justify-content: flex-start; }
+.item2-first{ display: flex; justify-content: flex-start; margin-bottom: 20px }
 .item2-tag{ display: flex; justify-content: flex-start; }
 .item2-tag p{ margin-bottom: 20px; margin-left: 25px; }
 .item2-tag p:first-child{ margin-left: 0; }
+
+
+.little-content-left{ display: flex; justify-content: flex-start }
+.little-content-right{ display: flex; justify-content: flex-end; align-items: center; margin-top: 20px; }
+.little-content-right p{ text-align: center; line-height: 15px; margin-left: 15px; }
+.little-content-right p:nth-child(2){ margin-left: 7px; }
+
+.area{ display: flex; justify-content: space-around; margin-top: 25px; position: relative }
+.area:after{ content: ''; position: absolute; background-color: grey; width: 100%; height: 2px; top: 28px; }
