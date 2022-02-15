@@ -65,3 +65,16 @@
 .middle-little{ display: flex; justify-content: space-between; background: #e7e7e7 }
 .ml-first{ display: flex; justify-content: space-between; }
 .ml-first p{ margin-right: 10px; font-weight: bolder }
+
+.fourth-content{ display: flex; justify-content: space-between; width: 100%; }
+.fourth-first{ display: flex; flex-direction: column; padding: 10px; border: 1px solid orangered; width: 33%;  }
+.ff1{ display: flex; justify-content: space-between; margin-bottom: 10px; }
+.ff1 p{ font-size: 1.2em; font-weight: bolder; }
+.ff2{ margin-bottom: 10px; }
+.ff2 p{ margin-bottom: 10px; }
+.ff2 p:first-child{ font-weight: bolder }
+.ff2 span{ font-weight: bolder }
+
+.fourth-second{ display: flex; flex-direction: column; justify-content: space-between; width: 33%; }
+
+.fourth-third{ display: flex; flex-direction: column; justify-content: space-between; width: 33%; }
