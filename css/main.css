@@ -7,7 +7,7 @@
 .header-small-icons div{ display:flex; flex-direction: column; text-align: center; margin-right: 30px; }
 
 
-.main-wrap{ width: 100%; max-width: 1000px; margin: 0 auto; border: 1px solid red; }
+.main-wrap{ width: 100%; max-width: 1000px; margin: 0 auto; }
 
 .first-content{ position: relative; align-items: center; margin-top: 20px;  }
 .first-content-box{  background-color: white; opacity: 0.8; width: 50%; position: absolute; top: -76px; padding: 10px; box-shadow: 2px 2px 20px grey  }
@@ -55,10 +55,11 @@
 .third-first button{ margin-top: 10px; }
 
 .grandma{ position: relative }
-.grandma:after{ position: absolute; content: ''; background-image: url("../img/middle-img.jpg"); box-shadow: 2px 2px 20px grey; width: 350px; height: 220px; left: 267px; top: -80px; }
+.grandma:after{ position: absolute; content: ''; background-image: url("../img/middle-img.jpg"); box-shadow: 2px 2px 20px grey; width: 350px; height: 250px; left: 267px; top: -80px; }
 
 .third-second{ display: flex; justify-content: flex-end; }
 .third-second > div{ width: 100%; }
+.ts1 p:first-child{ margin-bottom: 10px; }
 .ts-bottom{ display: flex; justify-content: space-between; width: 100%; }
 .ts-bottom div{ width: 39%; align-items: center; text-align: center; }
 
@@ -67,14 +68,58 @@
 .ml-first p{ margin-right: 10px; font-weight: bolder }
 
 .fourth-content{ display: flex; justify-content: space-between; width: 100%; }
-.fourth-first{ display: flex; flex-direction: column; padding: 10px; border: 1px solid orangered; width: 33%;  }
+.fourth-first{ display: flex; flex-direction: column; width: 32%; }
 .ff1{ display: flex; justify-content: space-between; margin-bottom: 10px; }
-.ff1 p{ font-size: 1.2em; font-weight: bolder; }
 .ff2{ margin-bottom: 10px; }
 .ff2 p{ margin-bottom: 10px; }
 .ff2 p:first-child{ font-weight: bolder }
 .ff2 span{ font-weight: bolder }
 
-.fourth-second{ display: flex; flex-direction: column; justify-content: space-between; width: 33%; }
+.fourth-second{ display: flex; flex-direction: column; justify-content: space-between; width: 32%; }
+.fs1 img{ width: 90px; height: 80px; border: 1px solid black; }
+.fs1-imgs{ margin-top: 10px; }
+.fs1-img{ display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px }
 
-.fourth-third{ display: flex; flex-direction: column; justify-content: space-between; width: 33%; }
+.fs2{ margin-bottom: 0; }
+.fs2 div:first-child{ margin-bottom: 10px; }
+.fs2-img{ display: flex; justify-content: space-between; }
+.fs2-img img{ width: 140px; height: 90px; border: 1px solid }
+.fs2-img img:nth-child(2){ width: 140px; height: 90px; }
+.fs2-imgname{ display: flex; justify-content: space-between; margin-top: 10px; }
+
+.fourth-third{ display: flex; flex-direction: column; justify-content: space-between; width: 32%; }
+
+.fifth-content{ display: flex; justify-content: space-between; width: 100%; margin-top: 20px; }
+.fifth-box{ width: 32%; }
+.fifth-box img{ width: 100%; height: 150px; }
+
+.sixth-content{ display: flex; justify-content: space-between; width: 100%; margin-top: 20px; }
+.sixth-box{ width: 32%; }
+.sixth-box img{ width: 100%; height: 150px; }
+
+.sixth-sense{ width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: space-between; }
+.ss-img{ margin-bottom: 10px; }
+.ss-img:last-child{ margin-bottom: 0; }
+.ss-img img{ width: 100px; height: 80px; margin-right: 10px; }
+.ss-img2 img{ width: 140px; height: 90px; }
+.te{ display: flex;justify-content: space-between; flex-wrap: wrap; width: 100%; align-items: center; overflow: hidden;  }
+.te-thumb{ width: 39%; background-color: #dbdbdb; text-align: center }
+
+.ss-select{ width: 100%; height: 50px; background-color: #dbdbdb; color: grey }
+
+.foot-first{ background-color: #dbdbdb; width: 100%; }
+.foot1{  max-width: 1000px; margin: 0 auto; text-align: center; align-items: center; }
+
+.foot-second{ background-color: #e7e7e7; width: 100%; }
+
+.foot2 i{ color: white }
+.foot2{ position: relative }
+.foot2:after{ position: absolute; content: ''; height: 2px; width: 100%; background-color: #dbdbdb; top: 40px; }
+
+.foot-third{ max-width: 1000px; margin: 0 auto; text-align: center; align-items: center; position: relative; }
+.foot-third:after{ position: absolute; content: ''; height: 2px; width: 100%; background-color: #dbdbdb; top: 110px; }
+.foot-third img{ width: 250px; height: 70px; }
+
+.foot-fourth{ max-width: 1000px; text-align: center; align-items: center; position: relative; margin: 30px auto 0; }
+.foot-fourth p{ color: dimgrey; }
+.foot-fourth img{ width: 100px; height: 50px; margin-left: 10px; }
